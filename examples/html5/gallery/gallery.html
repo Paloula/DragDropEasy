@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="no-cache" http-equiv="cache-control"/>
+    <meta content="no-cache" http-equiv="pragma"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Paloula DragDropEasy</title>
+    <link href="app/css/paloula-dragdrop-easy.css" rel="stylesheet"/>
+    <link href="app/css/page.css" rel="stylesheet"/>
+  </head>
+  <style></style>
+  <body>
+    <header id="app-example-logo-wrapper">
+      <img class="app-logo" src="app/img/logo_1000_001.png"/>
+      <img class="app-slogan" src="app/img/slogan_1000_002.png"/>
+    </header>
+    <div class="gallery-settings-layout">
+      <div class="gallery-settings">
+        <div class="toggle-container">
+          <ul data-value-original="singleselcet" data-value-active="singleselcet" data-callback="demoGallery.changeSelect(value)" id="changeSelect" class="toggle-switch">
+            <li data-value="singleselcet" class="toggle-switch-left">Singleselect</li>
+            <li data-value="multiselcet" class="toggle-switch-right">Multiselect</li>
+          </ul>
+          <input id="selectValue" type="hidden"/>
+        </div>
+        <div class="toggle-container">
+          <ul data-value-original="move" data-value-active="move" data-callback="demoGallery.changeCopyMode(value)" id="changeCopy" class="toggle-switch">
+            <li data-value="move" class="toggle-switch-left">Move</li>
+            <li data-value="copy" class="toggle-switch-right">Copy</li>
+          </ul>
+          <input id="copyValue" type="hidden"/>
+        </div>
+      </div>
+    </div>
+    <main class="app-example-content">
+      <div class="galleries-wrapper">
+        <div class="galleries-column">
+          <ul class="paloula-dragdrop-list paloula-inline-list gallery" id="cars">
+            <li id="car1">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00000.jpg"/>
+              </div>
+            </li>
+            <li id="car2">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00200.jpg"/>
+              </div>
+            </li>
+            <li id="car3">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00300.jpg"/>
+              </div>
+            </li>
+            <li id="car4">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00400.jpg"/>
+              </div>
+            </li>
+            <li id="car5">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00500.jpg"/>
+              </div>
+            </li>
+            <li id="car6">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00900.jpg"/>
+              </div>
+            </li>
+            <li id="car7">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00700.jpg"/>
+              </div>
+            </li>
+            <li id="car8">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/car_00800.jpg"/>
+              </div>
+            </li>
+            <li id="water2">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/water_00000.jpg"/>
+              </div>
+            </li>
+            <li id="city10">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_00900.jpg"/>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="galleries-column">
+          <ul class="paloula-dragdrop-list paloula-inline-list gallery" id="city">
+            <li id="city1">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_00000.jpg"/>
+              </div>
+            </li>
+            <li id="city2">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_00100.jpg"/>
+              </div>
+            </li>
+            <li id="city3">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_00200.jpg"/>
+              </div>
+            </li>
+            <li id="city4">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_00300.jpg"/>
+              </div>
+            </li>
+            <li id="city5">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_00400.jpg"/>
+              </div>
+            </li>
+            <li id="city6">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_00500.jpg"/>
+              </div>
+            </li>
+            <li id="city7">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_00600.jpg"/>
+              </div>
+            </li>
+            <li id="city8">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_00700.jpg"/>
+              </div>
+            </li>
+            <li id="city9">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_00800.jpg"/>
+              </div>
+            </li>
+            <li id="city11">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_01000.jpg"/>
+              </div>
+            </li>
+            <li id="city12">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_01100.jpg"/>
+              </div>
+            </li>
+            <li id="city13">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_01200.jpg"/>
+              </div>
+            </li>
+            <li id="city14">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_01300.jpg"/>
+              </div>
+            </li>
+            <li id="city15">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_01400.jpg"/>
+              </div>
+            </li>
+            <li id="city16">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_01500.jpg"/>
+              </div>
+            </li>
+            <li id="city17">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_01600.jpg"/>
+              </div>
+            </li>
+            <li id="city18">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_01700.jpg"/>
+              </div>
+            </li>
+            <li id="city19">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_01800.jpg"/>
+              </div>
+            </li>
+            <li id="city20">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_01900.jpg"/>
+              </div>
+            </li>
+            <li id="city21">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_02000.jpg"/>
+              </div>
+            </li>
+            <li id="city22">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_02100.jpg"/>
+              </div>
+            </li>
+            <li id="city23">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/city_02200.jpg"/>
+              </div>
+            </li>
+            <li id="city24">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/city_02300.jpg"/>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="galleries-column">
+          <ul class="paloula-dragdrop-list paloula-inline-list gallery" id="water">
+            <li id="water3">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/water_00100.jpg"/>
+              </div>
+            </li>
+            <li id="water4">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/water_00200.jpg"/>
+              </div>
+            </li>
+            <li id="water5">
+              <div class="galler-img-wrapper">
+                <img class="img-portrait" src="app/img/galleries/water_00300.jpg"/>
+              </div>
+            </li>
+            <li id="water6">
+              <div class="galler-img-wrapper">
+                <img class="img-landscape" src="app/img/galleries/water_00400.jpg"/>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="app/js/jquery-3.2.1.min.js"></script>
+    <script src="app/js/paloula.dragdropeasy-0.8.js"></script>
+    <script src="app/js/dragdropexamples.js"></script>
+    <script src="app/js/controls.js"></script>
+    <script>var paloulaDragDropOptions = {
+								copyMove: "move",
+								multiSelect: false,
+								dragDropModeActivated: true,
+								callBackDropped: demoGallery.callBackDropped
+						};
+		</script>
+  </body>
+</html>
