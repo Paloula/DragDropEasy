@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<gallery id="cars">
+		<media pos="1" id="car1" type="img" src="car_00000.jpg" orientation="landscape"></media>"
+		<media pos="2" id="car2" type="img" src="car_00200.jpg" orientation="landscape"></media>"
+		<media pos="3" id="car3" type="img" src="car_00300.jpg" orientation="landscape"></media>"
+		<media pos="4" id="car4" type="img" src="car_00400.jpg" orientation="landscape"></media>"
+		<media pos="5" id="car5" type="img" src="car_00500.jpg" orientation="landscape"></media>"
+		<media pos="7" id="car7" type="img" src="car_00700.jpg" orientation="landscape"></media>"
+		<media pos="8" id="car8" type="img" src="car_00800.jpg" orientation="landscape"></media>"
+		<media pos="6" id="car6" type="img" src="car_00900.jpg" orientation="landscape"></media>"
+	</gallery>
+	
+	<gallery id="city">
+		<media pos="1" id="city1" type="img" src="city_00000.jpg" orientation="portrait"></media>"
+		<media pos="2" id="city2" type="img" src="city_00100.jpg" orientation="portrait"></media>"
+		<media pos="3" id="city3" type="img" src="city_00200.jpg" orientation="landscape"></media>"
+		<media pos="4" id="city4" type="img" src="city_00300.jpg" orientation="landscape"></media>"
+		<media pos="5" id="city5" type="img" src="city_00400.jpg" orientation="landscape"></media>"
+		<media pos="6" id="city6" type="img" src="city_00500.jpg" orientation="landscape"></media>"
+		<media pos="7" id="city7" type="img" src="city_00600.jpg" orientation="landscape"></media>"
+		<media pos="8" id="city8" type="img" src="city_00700.jpg" orientation="landscape"></media>"
+		<media pos="9" id="city9" type="img" src="city_00800.jpg" orientation="portrait"></media>"
+		<media pos="10" id="city10" type="img" src="city_00900.jpg" orientation="portrait"></media>"
+		<media pos="11" id="city11" type="img" src="city_01000.jpg" orientation="portrait"></media>"
+		<media pos="12" id="city12" type="img" src="city_01100.jpg" orientation="portrait"></media>"
+		<media pos="13" id="city13" type="img" src="city_01200.jpg" orientation="landscape"></media>"
+		<media pos="14" id="city14" type="img" src="city_01300.jpg" orientation="landscape"></media>"
+		<media pos="15" id="city15" type="img" src="city_01400.jpg" orientation="landscape"></media>"
+		<media pos="16" id="city16" type="img" src="city_01500.jpg" orientation="landscape"></media>"
+		<media pos="17" id="city17" type="img" src="city_01600.jpg" orientation="landscape"></media>"
+		<media pos="18" id="city18" type="img" src="city_01700.jpg" orientation="landscape"></media>"
+		<media pos="19" id="city19" type="img" src="city_01800.jpg" orientation="portrait"></media>"
+
+		<media pos="20" id="city20" type="img" src="city_01900.jpg" orientation="portrait"></media>"
+		<media pos="21" id="city21" type="img" src="city_02000.jpg" orientation="landscape"></media>"
+		<media pos="22" id="city22" type="img" src="city_02100.jpg" orientation="portrait"></media>"
+		<media pos="23" id="city23" type="img" src="city_02200.jpg" orientation="portrait"></media>"
+		<media pos="24" id="city24" type="img" src="city_02300.jpg" orientation="landscape"></media>"
+		
+	</gallery>
+	
+	<gallery id="water">
+		<media pos="1" id="water2" type="img" src="water_00000.jpg" orientation="landscape"></media>"
+		<media pos="2" id="water3" type="img" src="water_00100.jpg" orientation="portrait"></media>"
+		<media pos="3" id="water4" type="img" src="water_00200.jpg" orientation="landscape"></media>"
+		<media pos="4" id="water5" type="img" src="water_00300.jpg" orientation="portrait"></media>"
+		<media pos="5" id="water6" type="img" src="water_00400.jpg" orientation="landscape"></media>"
+		
+	</gallery>
+
+</root>
